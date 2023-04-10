@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Rubik:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 30vh;
+    /* margin: 0px 30px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding: 20px;
+    border-bottom: 1px solid hsl(223, 64%, 98%);
+}
+
+.name-links {
+    display: flex;
+}
+
+.name-links h1 {
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.links {
+    padding-left: 40px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: hsl(220, 14%, 75%);
+}
+
+.image-cart {
+    display: flex;
+    /* padding-right: 5px; */
+    padding-left: 30px;
+}
+
+.cart {
+    padding-right: 30px;
+}
+
+.avatar {
+    padding-left: 10px;
+}
+
+.avatar img {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* info section styling */
+
+.info {
+    display: flex;
+    width: 75%;
+    padding: 20px;
+}
+
+
+/* product image styling */
+
+.productImage {
+    /* width: 300px; */
+    padding-top: 20px;
+}
+
+.bgImage img {
+    width: 97%;
+    border-radius: 6px;
+}
+
+.thumbnail-container {
+    display: flex;
+    padding-left: 0;
+}
+
+.thumbnail-container img {
+    margin: 10px;
+    width: 15%;
+    border-radius: 15px;
+}
+
+#thumbnail1 {
+    opacity: 0.5;
+}
+
+
+/* more info section styling */
+
+.moreInfo {
+    margin: 7px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.infor {
+    padding-top: 30px;
+}
+
+.infor h3 {
+    padding-bottom: 20px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+
+.infor h1 {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.infor p {
+    padding-bottom: 20px;
+    color: hsl(220, 14%, 75%);
+}
+
+.prc {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 16px;
+}
+
+.prc h1 {
+    padding-right: 15px;
+}
+
+.prc label {
+    border-radius: 5px;
+    width: 10%;
+    background-color: hsl(25, 100%, 94%);
+    padding-top: 5px;
+    padding-left: 24px;
+    padding: 4px;
+}
+
+.price p {
+    color: hsl(220, 14%, 75%);
+}
+
+
+/* buttons styling */
+
+.labels {
+    display: flex;
+    padding-top: 30px;
+}
+
+.operators {
+    display: flex;
+    border-radius: 5px;
+    width: 20%;
+    padding: 5px;
+    background-color: hsl(223, 64%, 98%);
+}
+
+.minus {
+    padding-left: 4px;
+    padding-top: 3px;
+}
+
+.number {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.plus {
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.btnn {
+    padding-left: 20px;
+}
+
+button {
+    color: #fff;
+}
+
+.btnn button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 150%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+}
+
+.btnn p {
+    padding-left: 20px;
+    padding-top: 3px;
+}
