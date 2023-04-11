@@ -156,6 +156,7 @@
 
 .price p {
     color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
 }
 
 
